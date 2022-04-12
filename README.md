@@ -1,2 +1,0 @@
-# Masterarbeit Simon
-
