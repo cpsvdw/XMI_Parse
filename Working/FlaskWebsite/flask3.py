@@ -1,8 +1,7 @@
 from flask import Flask, render_template, request, url_for
-
+import os
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import secure_filename, redirect
-
 
 app = Flask(__name__)
 
@@ -35,6 +34,7 @@ def upload_file():
     uploaded_file = request.files['file']
     if uploaded_file.filename != '':
         uploaded_file.save(uploaded_file.filename)
+        # uploaded_file.save(os.path.join(app.config['C:/Users/vanderweck/PycharmProjects/Working/FlaskWebsite/files'], filename))
     return redirect(url_for('commit_success'))
 
 
