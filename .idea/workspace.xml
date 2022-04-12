@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5df31789-51f4-4b62-a27a-b0e9407a519a" name="Changes" comment="Upload redesign_v2">
+    <list default="true" id="5df31789-51f4-4b62-a27a-b0e9407a519a" name="Changes" comment="Upload redesign_v3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/flask3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/flask3.py" afterDir="false" />
     </list>
@@ -11,6 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -29,7 +34,6 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\vanderweck\PycharmProjects\Working\FlaskWebsite\templates" />
       <recent name="C:\Users\vanderweck\PycharmProjects\Working\FlaskWebsite\models" />
     </key>
   </component>
@@ -160,12 +164,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="upload" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Not Working/Upload/220411/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\vanderweck\PycharmProjects\Working\FlaskWebsite\models\upload.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.flask3 (2)" />
-        <item itemvalue="Python.flask3 (1)" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.upload" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.flask3 (1)" />
         <item itemvalue="Python.flask3" />
       </list>
     </recent_temporary>
@@ -179,14 +204,21 @@
       <option name="presentableId" value="Default" />
       <updated>1649693536987</updated>
     </task>
-    <task id="LOCAL-00001" summary="Upload redesign_v2">
-      <created>1649759118240</created>
+    <task id="LOCAL-00001" summary="Upload dialog">
+      <created>1649748502881</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1649759118240</updated>
+      <updated>1649748502881</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Upload dialog">
+      <created>1649748593497</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649748593497</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,7 +233,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Upload redesign_v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upload redesign_v2" />
+    <MESSAGE value="Upload dialog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload dialog" />
   </component>
 </project>
