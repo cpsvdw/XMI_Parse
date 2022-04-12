@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5df31789-51f4-4b62-a27a-b0e9407a519a" name="Changes" comment="Upload redesign_v7 main new">
-      <change afterPath="$PROJECT_DIR$/Working/FlaskWebsite/templates/commit_success.html" afterDir="false" />
+    <list default="true" id="5df31789-51f4-4b62-a27a-b0e9407a519a" name="Changes" comment="v8 uploader merged to main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/flask3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/flask3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/templates/upload.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649770102979</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="v8 uploader merged to main">
+      <created>1649770624020</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649770624020</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,6 +278,7 @@
     <MESSAGE value="Upload redesign_v4" />
     <MESSAGE value="Upload redesign_v5" />
     <MESSAGE value="Upload redesign_v7 main new" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upload redesign_v7 main new" />
+    <MESSAGE value="v8 uploader merged to main" />
+    <option name="LAST_COMMIT_MESSAGE" value="v8 uploader merged to main" />
   </component>
 </project>

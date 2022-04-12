@@ -5,15 +5,18 @@ Upload Systemmodell
 {% endblock %}
 
 {% block content %}
-<h3>Bitte laden Sie ihr aktuelles Systemmodell zum überprüfen hoch.</h3>
+<center>
+    <h3>Bitte laden Sie ihr aktuelles Systemmodell zum überprüfen hoch.</h3>
 
 
-<body>
-<form action="http://localhost:5000/uploader" method="POST"
-      enctype="multipart/form-data">
-    <input type="file" name="file"/>
-    <input type="submit"/>
-</form>
-</body>
-</html>
+    <body>
+    <form action="http://localhost:5000/uploader" method="POST"
+          enctype="multipart/form-data">
+        <input type="file" name="file" accept=".xmi"/>
+        <input type="submit"/>
+    </form>
+    </body>
+</center>
+
+
 {% endblock%}

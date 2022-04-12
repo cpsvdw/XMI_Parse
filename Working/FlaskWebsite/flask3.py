@@ -1,7 +1,8 @@
 from flask import Flask, render_template, request, url_for
 
-# from flask_sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 from werkzeug.utils import secure_filename, redirect
+
 
 app = Flask(__name__)
 
@@ -11,9 +12,11 @@ app = Flask(__name__)
 def homepage():
     return render_template('home.html')
 
+
 @app.route('/commit_success')
 def commit_success():
     return render_template('commit_success.html')
+
 
 @app.route('/aufbau')
 def aufbau():
@@ -33,6 +36,7 @@ def upload_file():
     if uploaded_file.filename != '':
         uploaded_file.save(uploaded_file.filename)
     return redirect(url_for('commit_success'))
+
 
 if __name__ == '__main__':
     app.debug = True
