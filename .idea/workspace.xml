@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5df31789-51f4-4b62-a27a-b0e9407a519a" name="Changes" comment="Upload redesign_v3">
+    <list default="true" id="5df31789-51f4-4b62-a27a-b0e9407a519a" name="Changes" comment="Upload redesign_v4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/flask3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/flask3.py" afterDir="false" />
     </list>
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649748593497</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Upload redesign_v4">
+      <created>1649765508906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649765508906</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +241,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Upload dialog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upload dialog" />
+    <MESSAGE value="Upload redesign_v4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload redesign_v4" />
   </component>
 </project>
