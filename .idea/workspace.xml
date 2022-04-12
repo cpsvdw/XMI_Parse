@@ -4,8 +4,7 @@
     <list default="true" id="5df31789-51f4-4b62-a27a-b0e9407a519a" name="Changes" comment="v8 uploader merged to main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/flask3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/flask3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/templates/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/templates/commit_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/templates/commit_success.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
