@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5df31789-51f4-4b62-a27a-b0e9407a519a" name="Changes" comment="Upload redesign_v5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5df31789-51f4-4b62-a27a-b0e9407a519a" name="Changes" comment="Upload redesign_v7 main new">
+      <change afterPath="$PROJECT_DIR$/Working/FlaskWebsite/templates/commit_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/flask3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/flask3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649768537896</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Upload redesign_v7 main new">
+      <created>1649770102979</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649770102979</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,6 +268,7 @@
     <MESSAGE value="Upload dialog" />
     <MESSAGE value="Upload redesign_v4" />
     <MESSAGE value="Upload redesign_v5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upload redesign_v5" />
+    <MESSAGE value="Upload redesign_v7 main new" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload redesign_v7 main new" />
   </component>
 </project>
