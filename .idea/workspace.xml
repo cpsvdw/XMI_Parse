@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5df31789-51f4-4b62-a27a-b0e9407a519a" name="Changes" comment="">
+    <list default="true" id="5df31789-51f4-4b62-a27a-b0e9407a519a" name="Changes" comment="Upload redesign_v2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Not Working/Upload/220411/models/Upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/templates/Upload_Template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Not Working/Upload/220411/models/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/models/upload.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/models/db_check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/models/uploaded_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/flask3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/flask3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,6 +179,14 @@
       <option name="presentableId" value="Default" />
       <updated>1649693536987</updated>
     </task>
+    <task id="LOCAL-00001" summary="Upload redesign_v2">
+      <created>1649759118240</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649759118240</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,5 +199,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Upload redesign_v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload redesign_v2" />
   </component>
 </project>

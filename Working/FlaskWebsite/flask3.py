@@ -1,4 +1,5 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
+from werkzeug import secure_filename
 
 # from flask_sqlalchemy import SQLAlchemy
 
@@ -20,12 +21,20 @@ def aufbau():
 # to access we need jinja, special web syntax to access through html
 @app.route('/upload')
 def upload():
-    item = [
-        {'ID': 1, 'MAN': 'TGS', 'PRNummer': '893212299897', 'MaxWeight': '7-12'},
-        {'ID': 2, 'MAN': 'TGM', 'PRNummer': '123985473165', 'MaxWeight': '13-26'},
-        {'ID': 3, 'MAN': 'TGX', 'PRNummer': '231985128446', 'MaxWeight': '18-41'}
-    ]
-    return render_template('upload.html', items=item)
+    return render_template('upload.html')
+
+
+@app.route('/upload')
+def upload_file():
+    return render_template('upload.html')
+
+
+@app.route('/uploader', methods=['GET', 'POST'])
+def upload_file():
+    if request.method == 'POST':
+        f = request.files['file']
+        f.save(secure_filename(f.filename))
+        return 'file uploaded successfully'
 
 
 if __name__ == '__main__':
