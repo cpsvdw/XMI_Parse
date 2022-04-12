@@ -41,6 +41,7 @@
       <change beforePath="$PROJECT_DIR$/Upload/MASimon/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Upload/MASimon/main.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Upload/MASimon/upload.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/templates/upload.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/filetest/.idea/dbnavigator.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/filetest/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/filetest/files/XMI_2.xmi" beforeDir="false" />
