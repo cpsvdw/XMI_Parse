@@ -6,30 +6,14 @@ Upload Systemmodell
 
 {% block content %}
 <h3>Bitte laden Sie ihr aktuelles Systemmodell zum überprüfen hoch.</h3>
-<table class="table table-hover table-dark">
-    <thead>
-    <tr>
-        <!-- Your Columns HERE -->
-        <th scope="col">Upload</th>
 
-    </tr>
-    </thead>
-    <tbody>
-    <!-- Your rows inside the table HERE: -->
-    {% for item in items %}
-    <tr>
-        <td>
-            <div class="center">
-                <form method="POST" action="/" enctype="multipart/form-data">
-                    <input type="file" name="file">
-                    <button>Submit</button>
-                </form>
-            </div>
 
-        </td>
-    </tr>
-    {% endfor %}
-    </tbody>
-</table>
-
+<body>
+<form action="http://localhost:5000/uploader" method="POST"
+      enctype="multipart/form-data">
+    <input type="file" name="file"/>
+    <input type="submit"/>
+</form>
+</body>
+</html>
 {% endblock%}

@@ -2,60 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5df31789-51f4-4b62-a27a-b0e9407a519a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/.idea/flask3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/files/XMI_1.xmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/files/XMI_2.xmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/files/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/flask3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/models/db_check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/models/uploaded_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/templates/aufbau.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlaskWebsite/templates/upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/220411/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/220411/.idea/220411.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/220411/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/220411/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/220411/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/220411/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/220411/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/220411/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/220411/models/Upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/220411/models/upload.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/220411/req.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/MASimon/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/MASimon/.idea/MASimon.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/MASimon/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/MASimon/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/MASimon/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/MASimon/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/MASimon/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/MASimon/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Upload/MASimon/upload.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/templates/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filetest/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/filetest/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/filetest/files/XMI_2.xmi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/filetest/similarity/similarity1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/filetest/similarity/similarity2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testvcs/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testvcs/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testvcs/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testvcs/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testvcs/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testvcs/.idea/testvcs.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testvcs/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testvcs/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Not Working/Upload/220411/models/Upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/templates/Upload_Template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Not Working/Upload/220411/models/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/Working/FlaskWebsite/models/upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/models/db_check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Working/FlaskWebsite/models/uploaded_file.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +29,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Working/FlaskWebsite/venv/Scripts/python.exe" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vanderweck\PycharmProjects\Working\FlaskWebsite\templates" />
+      <recent name="C:\Users\vanderweck\PycharmProjects\Working\FlaskWebsite\models" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.flask3 (2)">
     <configuration name="MASimonInterpreter" type="PythonConfigurationType" factoryName="Python">
