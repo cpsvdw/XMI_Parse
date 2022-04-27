@@ -19,5 +19,4 @@ fehlerbeschreibung = soup.find("TAG_02_Fehlerbeschreibung")
 
 Fehlermeldung = []
 
-while True
-   try:
+
