@@ -12,3 +12,4 @@ fehlerbeschreibung = bs_content.find_all("TAG_02_Fehlerbeschreibung")
 
 fehlermeldung = [fehlerID, fehlerbeschreibung]
 print(fehlermeldung)
+
