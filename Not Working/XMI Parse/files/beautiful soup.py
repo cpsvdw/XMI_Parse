@@ -10,6 +10,7 @@ bs_content = bs(id2, features="xml")
 # fehlerID = bs_content.find_all("TAG_01_Fehler_ID")
 # fehlerbeschreibung = bs_content.find_all("TAG_02_Fehlerbeschreibung")
 # fehlermeldung = [fehlerID, fehlerbeschreibung]
+fehlermeldung = bs_content.find_all("MA_Simon_Library_colon03_Fehler_Label_colon02_Stereotype:Fehler_Label").get(
+    "TAG_01_Fehler_ID")
 
-fehlermeldung = bs_content.find_all("MA_Simon_Library_colon03_Fehler_Label_colon02_Stereotype:Fehler_Label")
 print(fehlermeldung)
