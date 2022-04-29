@@ -1,14 +1,14 @@
-from bs4 import BeautifulSoup
-import re
+from bs4 import BeautifulSoup as bs
 
+id2 = []
+fehlermeldung = []
+with open('C:\\Users\\vanderweck\\PycharmProjects\\Not Working\\XMI Parse\\Models\\ID2.xmi', 'r') as file:
+    id2 = file.readlines()
+id2 = "".join(id2)
+bs_content = bs(id2, features="xml")
 
-with open('C:\\Users\\vanderweck\\PycharmProjects\\Not Working\\XMI Parse\\Models\\ID2.xmi', 'r') as ID4:
-    soup = BeautifulSoup(ID4, features="xml")
-    #text = str(soup.findAll(text=True)).replace("\\n", " ")
+fehlerID = bs_content.find_all("TAG_01_Fehler_ID")
+fehlerbeschreibung = bs_content.find_all("TAG_02_Fehlerbeschreibung")
 
-fehlerID = soup.find("TAG_01_Fehler_ID")
-fehlerbeschreibung = soup.find("TAG_02_Fehlerbeschreibung")
-
-Fehlermeldung = [fehlerID, fehlerbeschreibung]
-
-print(Fehlermeldung)
+fehlermeldung = [fehlerID, fehlerbeschreibung]
+print(fehlermeldung)
