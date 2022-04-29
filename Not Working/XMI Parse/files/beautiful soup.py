@@ -7,9 +7,9 @@ with open('C:\\Users\\vanderweck\\PycharmProjects\\Not Working\\XMI Parse\\Model
 id2 = "".join(id2)
 bs_content = bs(id2, features="xml")
 
-fehlerID = bs_content.find_all("TAG_01_Fehler_ID")
-fehlerbeschreibung = bs_content.find_all("TAG_02_Fehlerbeschreibung")
+# fehlerID = bs_content.find_all("TAG_01_Fehler_ID")
+# fehlerbeschreibung = bs_content.find_all("TAG_02_Fehlerbeschreibung")
+# fehlermeldung = [fehlerID, fehlerbeschreibung]
 
-fehlermeldung = [fehlerID, fehlerbeschreibung]
+fehlermeldung = bs_content.find_all("MA_Simon_Library_colon03_Fehler_Label_colon02_Stereotype:Fehler_Label")
 print(fehlermeldung)
-
